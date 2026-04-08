@@ -1,0 +1,66 @@
+.page-title{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.timer-container{
+    border: 2px solid gray;
+    background-color: #dbecfb;
+    border-radius: 10px;
+    padding: 20px 20px 30px 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.session-title{
+    font-size: 70px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: auto;
+    color: red;
+}
+
+.timer-display{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin: 10px;
+}
+
+.timer-buttons button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #5166f0;
+
+}
+
+.timer-widget{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border : 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.timer-widget-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    gap: 10px;
+    
+}

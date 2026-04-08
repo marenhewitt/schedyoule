@@ -1,0 +1,65 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: #96C5F7;
+}
+
+body, html, #root {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #96C5F7;
+}
+
+.App {
+  min-height: '100vh';
+  background-color: #96C5F7;
+  padding: 0;
+  margin: 0;
+}
+
+
+.homepage-container, .calendar-container, .dashboard-container {
+  min-height: 100vh;
+  background-color: #96C5F7;
+}
+
+
+
+.custom-navbar {
+  background-color: #3C3744 !important;
+}
+
+.custom-navbar .navbar-brand, .custom-navbar .nav-link {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #c1b8c8 !important;
+}
+
+.custom-navbar .nav-link  {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  color: white !important;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.custom-navbar .nav-link:last-child {
+  border-right: none;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
